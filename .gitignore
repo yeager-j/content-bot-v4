@@ -1,0 +1,7 @@
+.idea
+node_modules
+.env
+content-bot.iml
+dist
+.DS_STORE
+firebase-key.json

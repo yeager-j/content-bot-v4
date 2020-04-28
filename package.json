@@ -1,0 +1,24 @@
+{
+  "name": "Watchdog",
+  "version": "4.11.0",
+  "description": "A modular Discord bot with cloud functionality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run clean && tsc && node ./dist/index.js",
+    "clean": "if [ -d \"./dist\" ]; then rm -Rf ./dist; fi"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^8.0.50",
+    "discord.js": "^11.2.1",
+    "discord.js-commando": "^0.9.0",
+    "dotenv": "^4.0.0",
+    "firebase-admin": "^5.12.1",
+    "fs-extra": "^4.0.2",
+    "jimp": "^0.2.28",
+    "moment": "^2.19.1",
+    "underscore": "^1.8.3"
+  }
+}
